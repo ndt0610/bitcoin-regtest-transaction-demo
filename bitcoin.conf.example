@@ -1,0 +1,12 @@
+# Chỉ dùng cho blockchain cục bộ phục vụ học tập. Sao chép vào data directory của Bitcoin Core.
+regtest=1
+server=1
+txindex=1
+fallbackfee=0.00001000
+
+[regtest]
+rpcuser=bitcoin_demo
+rpcpassword=CHANGE_ME
+rpcbind=127.0.0.1
+rpcallowip=127.0.0.1
+rpcport=18443

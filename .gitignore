@@ -1,0 +1,34 @@
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Wallet secrets and key material
+*.key
+*.pem
+*.wif
+wallet.dat
+
+# React frontend build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/npm-debug.log*
+scratch_e2e_test.py

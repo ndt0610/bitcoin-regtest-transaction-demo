@@ -1,0 +1,6 @@
+{
+  "name": "Demo Giao dịch Bitcoin Regtest",
+  "description": "Giao diện mô phỏng và trực quan hóa 9 bước vòng đời giao dịch Bitcoin Core Regtest với chế độ tối và hệ thống điều hướng tối ưu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
